@@ -14,7 +14,7 @@ public class LoginSteps {
     @Given("^(.*) tiene acceso a la URL$")
     public void accedeURL(String actor) {
         theActorCalled(actor).attemptsTo(
-                Open.browserOn().thePageNamed("pages.MBAAS")
+                Open.browserOn().thePageNamed("pages.WEB")
         );
     }
 }
