@@ -7,7 +7,7 @@ Feature:Ingreso a MBaaS
 
   @Ingreso
    #ButtonForgotPasswordSteps
-  Scenario: Ingreso a MBaaS
+  Scenario: Ingreso a pagina Web
     Given Usuario tiene acceso a la URL
 
 
