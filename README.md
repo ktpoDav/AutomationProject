@@ -45,6 +45,7 @@ mvn clean verify -Dcucumber.options="src/test/resources/features/"
 ``````
 mvn serenity:check-gherkin
 ``````
+## Ejecutar un escenario los feature del proyecto 
 ``````
 mvn clean verify -Dcucumber.filter.tags=@Ingreso
 ``````
